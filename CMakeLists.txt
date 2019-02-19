@@ -43,7 +43,7 @@ option(SCRIPT_LIB_SD3       "Compile with support for ScriptDev3 scripts"   ON)
 option(PLAYERBOTS           "Enable Player Bots"                            ON)
 option(IMMERSIVE            "Enable Immersive"                              ON)
 option(SOAP                 "Enable remote access via SOAP"                 OFF)
-option(TESTS                "Build AI CppUnit Tests"                        ON)
+option(TESTS                "Build AI CppUnit Tests"                        OFF)
 # Hidden option to enable/disable PCH. DEV ONLY!
 set(PCH ON)
 
